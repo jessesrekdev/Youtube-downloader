@@ -1,4 +1,4 @@
-	//* Custom CSS for YouTube Video Downloader */
+/* Custom CSS for YouTube Video Downloader */
 
 /* Center the card */
 .card {
@@ -32,7 +32,7 @@
 	height: 30px;
 	color: white;
 	font-family: monospace;
-	font-style: bold;
+	font-weight: bold; /* Corrected property */
 }
 
 /* Center the button */
@@ -45,6 +45,7 @@
     border-radius: 20px; /* Rounded corners */
     margin-top: 10px; /* Add some margin to the top */
 }
+
 /* CSS to center items within a div */
 .svg {
     display: flex; /* Use flexbox layout */
@@ -52,15 +53,17 @@
     align-items: center; /* Vertically center items */
     height: 7vh; 
 }
-#utube {
-width: 50px;
-height: 50px;
+
+.utube {
+    flex: none; /* Prevent stretching */
 }
+
 #urlarea {
-width: 250px;
+    width: 250px;
 }
+
 /* Button styles */
-  .telegram-button {
+.telegram-button {
     display: inline-block;
     padding: 10px 20px;
     background-color: #007bff;
@@ -72,25 +75,25 @@ width: 250px;
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  .telegram-button:hover {
+}
+
+.telegram-button:hover {
     background-color: #0056b3;
-  }
-  
-  /* Animation */
-  .telegram-button.clicked {
+}
+
+/* Animation */
+.telegram-button.clicked {
     animation: pulse 0.5s linear;
-  }
-  
-  @keyframes pulse {
+}
+
+@keyframes pulse {
     0% {
-      transform: scale(1);
+        transform: scale(1);
     }
     50% {
-      transform: scale(1.1);
+        transform: scale(1.1);
     }
     100% {
-      transform: scale(1);
+        transform: scale(1);
     }
-  }
+}
