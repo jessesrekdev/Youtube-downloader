@@ -6,6 +6,43 @@
     <title>YouTube Videos Downloader by Technical Asmaul</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/js/bootstrap.min.js" type="text/javascript"></script>
+	<style>
+		/* Button styles */
+.telegram-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.telegram-button:hover {
+    background-color: #0056b3;
+}
+
+/* Animation */
+.telegram-button.clicked {
+    animation: pulse 0.5s linear;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+		</style>
 </head>
 <body class="bg-dark">
 	<div class="svg" >
