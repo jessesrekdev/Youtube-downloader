@@ -60,7 +60,6 @@ height: 50px;
 width: 250px;
 }
 
-/* Button styles */
 .telegram-button {
     display: inline-block;
     padding: 10px 20px;
@@ -79,7 +78,6 @@ width: 250px;
     background-color: #0056b3;
 }
 
-/* Animation */
 .telegram-button.clicked {
     animation: pulse 0.5s linear;
 }
