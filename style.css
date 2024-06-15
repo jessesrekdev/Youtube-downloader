@@ -84,3 +84,48 @@ width: 250px;
     font-size: 20px;
     font-weight: bold;
 }
+
+ .instagram-button {
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+            border: none;
+            border-radius: 50px;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            height: 19px;
+            margin-right: 5px;
+        }
+
+        .instagram-button:hover {
+            background: linear-gradient(45deg, #bc1888 0%, #cc2366 25%, #dc2743 50%, #e6683c 75%, #f09433 100%);
+        }
+        
+        .telegram-button {
+            background: linear-gradient(45deg, #37aee2, #1e96c8);
+            border: none;
+            border-radius: 50px;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .telegram-button:hover {
+            background: linear-gradient(45deg, #1e96c8, #37aee2);
+        }
+        .follow {
+        display: flex;
+	}
