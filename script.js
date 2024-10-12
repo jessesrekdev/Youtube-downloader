@@ -1,8 +1,13 @@
-// Add click event listener to the button
-    document.getElementById('telegramButton').addEventListener('click', function() {
-      // Add clicked class for animation
-      this.classList.add('clicked');
+import('./dw.js');
 
-      // Open Telegram link
-      window.location.href = 'https://t.me/web_jesse_network';
-    });
+r.style.display = 'none';
+cardbody.style.display = 'none';
+
+start.addEventListener('click', function(){
+    cardbody.style.display = 'block';
+    start.style.display = 'none';
+});
+
+r.addEventListener('click', function() {
+    location.reload();
+});
