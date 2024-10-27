@@ -3,302 +3,433 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 * {
-    font-family: "Roboto", sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 
-	/* Center the card */
-	.card {
-	    margin-top: 50px;
-	}
+.card {
+	margin-top: 50px;
+}
 
-	/* Adjust card header style */
-	.card-header {
-	    color: #fff;
-	    text-align: center;
-	}
+.card .card-header {
+	color: #fff;
+	text-align: center;
+}
 
-	/* Add some padding to the card body */
-	.card-body {
-	    padding: 20px;
-	}
+.card .card-body {
+	padding: 20px;
+}
 
-	/* Style the input field */
-	.form-control {
-	    border-radius: 20px;
-	    /* Rounded corners */
-	    border: 1px solid #ccc;
-	    /* Border color */
-	    padding: 12px;
-	    /* Padding */
-	    box-shadow: none;
-	    /* Remove shadow */
-	}
+.card .form-control {
+	border-radius: 20px;
+	border: 1px solid #ccc;
+	padding: 12px;
+	box-shadow: none;
+}
 
-	/* Style the button */
-	.btn-success {
-	    border-radius: 12px;
-	    /* Rounded corners */
-	    background-color: rgb(41, 153, 46);
-	    width: 150px;
-	    height: 30px;
-	    color: white;
-	    font-family: monospace;
-	    font-style: bold;
-	}
+.card .btn-success {
+	border-radius: 12px;
+	background-color: rgb(41, 153, 46);
+	width: 150px;
+	height: 30px;
+	color: white;
+	font-family: monospace;
+	font-style: bold;
+}
 
-	.btn-success:hover {
-	    background-color: rgb(16, 177, 26);
-	    color: #fff;
-	    font-size: 14px;
-	}
+.card .btn-success:hover {
+	background-color: rgb(16, 177, 26);
+	color: #fff;
+	font-size: 14px;
+}
 
-	/* Center the button */
-	.click-btn-down {
-	    margin: 0 auto;
-	}
+.card .click-btn-down {
+	margin: 0 auto;
+}
 
-	/* Style the select dropdown */
-	.form-control.formte {
-	    border-radius: 20px;
-	    /* Rounded corners */
-	    margin-top: 10px;
-	    /* Add some margin to the top */
-	}
+.card .form-control.formte {
+	border-radius: 20px;
+	margin-top: 10px;
+}
 
-	/* CSS to center items within a div */
-	.svg {
-	    display: flex;
-	    /* Use flexbox layout */
-	    flex-direction: column;
-	    justify-content: center;
-	    /* Horizontally center items */
-	    align-items: center;
-	    /* Vertically center items */
-	    background-color: rgb(248, 248, 248);
-	    box-shadow: #9f9797 3px 3px 9px;
-	    margin: 10px;
-	    padding: 10px 6px;
-	    border-radius: 0.5em;
-	}
+.svg {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(248, 248, 248);
+	box-shadow: #9f9797 3px 3px 9px;
+	margin: -8.5px;
+	padding: 10px 6px;
+}
 
-	.svg svg {
-	    width: 50px;
-	    height: 50px;
-	    fill: rgb(255, 0, 0)
-	}
+.svg svg {
+	width: 40px;
+	height: 40px;
+	fill: rgb(255, 0, 0);
+	margin: 0px 20px 0 20px;
+}
 
-	#urlarea {
-	    width: 250px;
-	}
+.svg b {
+	margin-top: 10px;
+	position: absolute;
+}
 
-	.card {
-	    background-color: rgb(241, 233, 233);
-	    margin-top: 1em;
-	    box-shadow: #9f9797 3px 3px 9px;
-	    border-radius: 1em;
-	}
+#urlarea {
+	width: 250px;
+}
 
-	.credit {
-	    font-size: 20px;
-	    font-weight: bold;
-	}
+.card {
+	background-color: rgb(241, 233, 233);
+	margin-top: 1em;
+	box-shadow: #9f9797 3px 3px 9px;
+	border-radius: 1em;
+}
 
-	.instagram-button {
-	    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-	    border: none;
-	    border-radius: 50px;
-	    color: white;
-	    padding: 10px 20px;
-	    font-size: 16px;
-	    font-weight: bold;
-	    text-transform: uppercase;
-	    text-align: center;
-	    cursor: pointer;
-	    transition: background 0.3s ease;
-	    text-decoration: none;
-	    display: inline-block;
-	    height: 19px;
-	    margin-right: 5px;
-	}
+.credit {
+	font-size: 20px;
+	font-weight: bold;
+}
 
-	.instagram-button:hover {
-	    background: linear-gradient(45deg, #bc1888 0%, #cc2366 25%, #dc2743 50%, #e6683c 75%, #f09433 100%);
-	}
+.instagram-button {
+	background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+	border: none;
+	border-radius: 50px;
+	color: white;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	cursor: pointer;
+	transition: background 0.3s ease;
+	text-decoration: none;
+	display: inline-block;
+	height: 19px;
+	margin-right: 5px;
+}
 
-	.telegram-button {
-	    background: linear-gradient(45deg, #37aee2, #1e96c8);
-	    border: none;
-	    border-radius: 50px;
-	    color: white;
-	    padding: 10px 20px;
-	    font-size: 16px;
-	    font-weight: bold;
-	    text-transform: uppercase;
-	    text-align: center;
-	    cursor: pointer;
-	    transition: background 0.3s ease;
-	    text-decoration: none;
-	    display: inline-block;
-	}
+.instagram-button:hover {
+	background: linear-gradient(45deg, #bc1888 0%, #cc2366 25%, #dc2743 50%, #e6683c 75%, #f09433 100%);
+}
 
-	.telegram-button:hover {
-	    background: linear-gradient(45deg, #1e96c8, #37aee2);
-	}
+.telegram-button {
+	background: linear-gradient(45deg, #37aee2, #1e96c8);
+	border: none;
+	border-radius: 50px;
+	color: white;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	cursor: pointer;
+	transition: background 0.3s ease;
+	text-decoration: none;
+	display: inline-block;
+}
 
-	.follow {
-	    display: flex;
-	}
+.telegram-button:hover {
+	background: linear-gradient(45deg, #1e96c8, #37aee2);
+}
 
-	.refresh {
-	    background: linear-gradient(45deg, #000000 0%, #ff0000 25%, #ff0026 50%, #ff0000 75%, #000000 100%);
-	    border: none;
-	    border-radius: 10px;
-	    color: white;
-	    font-size: 13px;
-	    font-weight: bold;
-	    text-transform: uppercase;
-	    text-align: center;
-	    transition: background 0.3s ease;
-	    text-decoration: none;
-	    display: inline-block;
-	    height: 25px;
-	    box-shadow: rgba(0, 0, 0, 0.5);
-	}
+.follow {
+	display: flex;
+}
 
-	.refresh:hover {
-	    background: linear-gradient(45deg, #ff0000 0%, #000000 25%, #000000 50%, #000000 75%, #ff0000 100%);
-	}
+.refresh {
+	background: linear-gradient(45deg, #000000 0%, #ff0000 25%, #ff0026 50%, #ff0000 75%, #000000 100%);
+	border: none;
+	border-radius: 10px;
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	transition: background 0.3s ease;
+	text-decoration: none;
+	display: inline-block;
+	height: 25px;
+	box-shadow: rgba(0, 0, 0, 0.5);
+}
 
-	#r {
-	    margin-top: 5;
-	    margin-left: 20px;
-	    margin-right: 20px;
-	}
+.refresh:hover {
+	background: linear-gradient(45deg, #ff0000 0%, #000000 25%, #000000 50%, #000000 75%, #ff0000 100%);
+}
 
-    .vidh {
-        font-size: 25px;
-        margin-bottom: 0;
-    }
+#r {
+	margin-top: 5;
+	margin-left: 20px;
+	margin-right: 20px;
+}
 
-    li {
-        margin-bottom: 10px ;
-        font-family: "Roboto Mono", monospace;
-    }
+.vidh {
+	font-size: 25px;
+	margin-bottom: 0;
+}
 
-    .vid {
-        align-items: center;
-        text-align: center;
-    }
-    .vid video {
-        margin-top: 20px;
-    }
-    .mokup {
-        width: 320px;
-        margin-top: -597px;
+li {
+	margin-bottom: 10px;
+	font-family: "Roboto Mono", monospace;
+}
 
-    }
+.vid {
+	align-items: center;
+	text-align: center;
+}
 
-    .video {
-        width: 254px;
-        border-radius: 16px;
-    }
+.vid video {
+	margin-top: 20px;
+}
 
-    #ll {
-        font-size: 20px;
-        font-family: "Rubik", sans-serif;
-    }
+.mokup {
+	width: 320px;
+	margin-top: -597px;
 
+}
 
+.video {
+	width: 254px;
+	height: 565px;
+	border-radius: 16px;
+}
 
+#ll {
+	font-size: 20px;
+	font-family: "Rubik", sans-serif;
+}
 
-    
 .start {
-    position: relative;
-    padding: 10px 20px;
-    border-radius: 6px;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    background-color: #7d2ae8;
-    transition: all 0.2s ease;
-    width: 50%;
-    text-align: center;
-  }
- .start:active {
-    transform: scale(0.96);
-  }
-  .start:before,
-  .start:after {
-    position: absolute;
-    content: "";
-    width: 150%;
-    left: 50%;
-    height: 100%;
-    transform: translateX(-50%);
-    z-index: -1000;
-    background-repeat: no-repeat;
-  }
-  .start.animate::before {
-    top: -70%;
-    background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-      radial-gradient(circle, transparent 20%, #7d2ae8 20%, transparent 30%),
-      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-      radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%),
-      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-      radial-gradient(circle, #7d2ae8 20%, transparent 20%);
-    background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
-    animation: greentopBubbles ease-in-out 1s forwards infinite;
-  }
-  @keyframes greentopBubbles {
-    0% {
-      background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%,
-        40% 90%, 55% 90%, 70% 90%;
-    }
-    50% {
-      background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,
-        50% 50%, 65% 20%, 90% 30%;
-    }
-    100% {
-      background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,
-        50% 40%, 65% 10%, 90% 20%;
-      background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
-    }
-  }
-  .start.animate::after {
-    bottom: -70%;
-    background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-      radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%),
-      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-      radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-      radial-gradient(circle, #7d2ae8 20%, transparent 20%);
-    background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
-    animation: greenbottomBubbles ease-in-out 1s forwards infinite;
-  }
-  @keyframes greenbottomBubbles {
-    0% {
-      background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%,
-        70% -10%, 70% 0%;
-    }
-    50% {
-      background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%,
-        105% 0%;
-    }
-    100% {
-      background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,
-        110% 10%;
-      background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
-    }
-  }
+	position: relative;
+	padding: 10px 20px;
+	border-radius: 6px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	background-color: #7d2ae8;
+	transition: all 0.2s ease;
+	width: 50%;
+	text-align: center;
+}
 
-  .j {
-    margin-top: 20px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-  }
+.start:active {
+	transform: scale(0.96);
+}
+
+.start:before,
+.start:after {
+	position: absolute;
+	content: "";
+	width: 150%;
+	left: 50%;
+	height: 100%;
+	transform: translateX(-50%);
+	z-index: -1000;
+	background-repeat: no-repeat;
+}
+
+.start.animate::before {
+	top: -70%;
+	background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+		radial-gradient(circle, transparent 20%, #7d2ae8 20%, transparent 30%),
+		radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+		radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+		radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%),
+		radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+		radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+		radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+		radial-gradient(circle, #7d2ae8 20%, transparent 20%);
+	background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
+	animation: greentopBubbles ease-in-out 1s forwards infinite;
+}
+
+@keyframes greentopBubbles {
+	0% {
+		background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%,
+			40% 90%, 55% 90%, 70% 90%;
+	}
+
+	50% {
+		background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,
+			50% 50%, 65% 20%, 90% 30%;
+	}
+
+	100% {
+		background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,
+			50% 40%, 65% 10%, 90% 20%;
+		background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+	}
+}
+
+.start.animate::after {
+	bottom: -70%;
+	background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+		radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+		radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%),
+		radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+		radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+		radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+		radial-gradient(circle, #7d2ae8 20%, transparent 20%);
+	background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
+	animation: greenbottomBubbles ease-in-out 1s forwards infinite;
+}
+
+@keyframes greenbottomBubbles {
+	0% {
+		background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%,
+			70% -10%, 70% 0%;
+	}
+
+	50% {
+		background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%,
+			105% 0%;
+	}
+
+	100% {
+		background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,
+			110% 10%;
+		background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+	}
+}
+
+.j {
+	margin-top: 20px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.next {
+	margin: 10px 20px;
+}
+
+.faq {
+	padding: 5px 20px;
+}
+
+.faq h1,
+h2 {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin: 0;
+}
+
+.faq ul {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#faq {
+	top: -0.8em;
+	position: relative;
+	text-align: end;
+	justify-content: end;
+	align-items: end;
+}
+
+@media (max-width: 9000px) {
+	.card {
+		width: 40em;
+	}
+
+	.next {
+		position: relative;
+		margin-top: -22em;
+		left: 50em;
+		width: 500px;
+	}
+
+	.tou {
+		position: relative;
+		top: -300px;
+		width: 50em;
+		margin-left: 1em;
+	}
+
+	.followt {
+		position: relative;
+		top: -15em;
+		width: 50em;
+		display: flex;
+	}
+
+	.start {
+		width: 200px;
+		right: 20em;
+		margin-top: 20px;
+		margin-bottom: 20em;
+		top: 150px;
+	}
+}
+
+@media (max-width: 9000px) {
+	.next {
+		left: 30em;
+		margin-left: 5em;
+	}
+
+	.card {
+		width: 30em;
+	}
+
+	.tou {
+		width: 35em;
+	}
+
+	#faq {
+		left: 8em;
+	}
+}
+
+
+@media (max-width: 992px) {
+	.card {
+		width: 30em;
+	}
+
+	.next {
+		position: relative;
+		margin-top: 50px;
+		left: 0;
+		width: auto;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.tou {
+		position: relative;
+		top: 0;
+		width: auto;
+		margin-left: 1em;
+	}
+
+	.followt {
+		position: relative;
+		top: 0;
+		width: 50em;
+		display: flex;
+	}
+
+	.start {
+		width: 150px;
+		right: 0;
+		margin-top: 0;
+		margin-bottom: 0;
+		top: 20px;
+	}
+
+	#faq {
+		left: 38em;
+	}
+}
+
+@media (max-width: 592px) {
+	.card {
+		width: auto;
+	}
+
+	#faq {
+		left: 20em;
+	}
+}
