@@ -377,7 +377,15 @@ h2 {
 	}
 
 	#faq {
-		left: 8em;
+		left: 50em;
+		width: 20px;
+		top: -5px;
+		border-radius: 30%;
+		padding: 5px;
+		box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+	}
+	#faq:hover {
+		box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
 	}
 }
 
@@ -420,7 +428,15 @@ h2 {
 	}
 
 	#faq {
-		left: 38em;
+		left: 35em;
+		width: 20px;
+		top: -5px;
+		border-radius: 30%;
+		padding: 5px;
+		box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+	}
+	#faq:hover {
+		box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
 	}
 }
 
@@ -430,6 +446,29 @@ h2 {
 	}
 
 	#faq {
-		left: 20em;
+		left: 15em;
+		width: 20px;
+		top: -5px;
+		border-radius: 30%;
+		padding: 5px;
+		box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+	}
+	.vid {
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+	}
+	#ll {
+		font-size: 17px;
+	}
+	.next {
+		position: relative;
+		margin-top: 50px;
+		left: -30px;
+		width: auto;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
 	}
 }
